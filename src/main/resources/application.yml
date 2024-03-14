@@ -1,1 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    password: 1483
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/gift_sertificate
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
 
